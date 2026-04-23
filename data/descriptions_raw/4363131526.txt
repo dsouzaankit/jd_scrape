@@ -1,0 +1,85 @@
+About Fora
+
+Fora is the modern travel agency, redefining what it means to be a travel advisor in today's world. We're a next-generation platform that provides a comprehensive, business-in-a-box solution—combining cutting-edge technology, personalized training, a vibrant community, and exclusive industry partnerships—all designed to empower anyone with a passion for travel to turn that passion into a thriving business. Whether you're a travel enthusiast or an experienced professional, Fora equips you with everything needed to launch and scale a successful travel advisory business, making it the ultimate way to align work with your lifestyle.
+
+At the heart of Fora is our mission: to power the next generation of travel entrepreneurs to transform their love for travel into a fulfilling full-time or part-time career, offering unparalleled flexibility, autonomy, and support. We believe that everyone, from seasoned travel professionals to first-time entrepreneurs, can build a career that's both profitable and aligned with their passions.
+
+Our platform combines innovative technology with the human touch, offering:
+
+Best-in-class training programs to help agents develop expert knowledge, no matter their starting point.
+A powerful suite of tools for booking, client management, and marketing, ensuring agents can focus on delivering exceptional travel experiences.
+Access to an engaged community of fellow advisors, fostering collaboration, support, and shared learning.
+Exclusive partnerships with top travel brands, providing access to competitive rates, perks, and experiences that elevate advisors' offerings.
+
+Since our founding in 2021 by experienced travel entrepreneurs Henley Vazquez, Jake Peters, and Evan Frank, Fora has experienced rapid growth, expanding to a team of 180+ full-time employees based in downtown New York City. Earlier this year, we announced our $60 million Series B and C investment rounds, led by Thrive Capital and Insight Partners, with participation by previous investors including Forerunner and Heartcore Capital. This funding represents a vote of confidence in the enduring power of entrepreneurship, and secures our ability to build a category-defining travel brand. We have a vision for the future that leverages the best of humans and the best of technology to create the first truly unified platform for all travel needs - from staycation to the safari.
+
+We're proud of the recognition we've received, including:
+
+LinkedIn's Top Startups List 2024
+Fast Company's Most Innovative Companies 2025 and 2023
+Built In 2025 Best Places to Work
+And several "top agency" awards from our fantastic partners including Virtuoso, IHG, Four Seasons, and more
+
+Fora is a mission-driven company that believes in the power of entrepreneurship, community, and passion. As we continue to grow, we are looking for more talented and like-minded individuals to join our team - people who are excited about transforming the travel space and helping us scale our vision globally.
+
+About The Role
+
+Fora is hiring its first Senior Analytics Engineer to help scale how data is modeled, curated, and delivered across the company. As our centralized data team grows, we're looking for a dedicated owner of the analytics transformation and metrics layer so analysts and stakeholders can access timely, reliable, and actionable insights.
+
+This is a foundational role where you'll establish analytics engineering standards, create trusted data marts and metric definitions, and improve data quality and performance across Fora's data stack. This role reports to the Director, Data & Analytics and works closely with partners in Engineering, Product, Finance and Growth.
+
+Key Responsibilities
+
+Own and mature Fora's analytics transformation layer, including the data models, context, and systems used to manage it
+Build modern analytics foundations that power AI-driven insights and action (both in BI-tool native AI apps, as well as through the use of MCP servers)
+Collaborate with business stakeholders to understand their needs, determine projects, and define requirements
+Improve quality, reliability, and performance, including reducing latency and managing cost as our data scales
+Promote a culture of data excellence through mentorship, documentation, and training
+Contribute to broader Data team strategy, project prioritization, and the continuous evolution of analytics best practices
+
+Requirements
+
+5+ years of experience in data analytics, including 2+ in an analytics engineering or an equivalent role
+Advanced SQL skills. Experience with Python is a plus
+Experience building and maintaining dbt projects in a production environment
+Hands-on with data warehouses such as BigQuery, Snowflake, Databricks
+Experience with modern BI tools such as Omni, Sigma, Hex, or Looker
+Familiarity with data ingestion (Airbyte, Fivetran) or orchestration tools
+Experience using LLM tools such as Claude Code, Cursor, or OpenAI Codex
+Strong cross-functional communication skills and experience partnering with technical and non-technical stakeholders
+
+Compensation
+
+Compensation for this role varies based on experience, with an indicative range of $130–$185K + equity. Final compensation will depend on the level at which the candidate is hired, as we're considering multiple levels for this role.
+
+Unlimited vacation
+Health Insurance (including an option completely covered by Fora HQ)
+Dental & Vision Insurance
+Wellhub Memberships
+401k plan with company match
+Commuter Benefits
+Supplemental Life Insurance
+Stock Options
+
+This role is based in our beautiful New York City office (Tribeca/Fidi) with lots of natural light and great views.
+
+Our Values
+
+We're forging our own path
+We're stronger together
+We believe in technology
+We're here to serve
+We mean business
+
+WORK AUTHORIZATION
+
+You must have authorization to work in the United States. Fora is unable to assist applicants with obtaining work authorization.
+
+EQUAL OPPORTUNITY
+
+Fora is committed to an equitable hiring process and an inclusive work environment. BIPOC and traditionally underrepresented candidates are strongly encouraged to apply. We will not discriminate and will take action to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of race, color, gender, national origin, age, religion, creed, disability, veteran's status, sexual orientation, gender identity, gender expression or any other characteristic protected by law.
+… more
+
+Benefits found in job post
+
+Medical insurance, Vision insurance, 401(k), Commuter benefits

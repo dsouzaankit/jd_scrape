@@ -1,0 +1,49 @@
+Job Description:
+
+Job Opportunity: Cloud Data Engineer
+
+Location: Iselin, NJ
+
+(Hybrid – Onsite 3 days/week)
+
+only W2 contracts/Not open for C2C
+
+Summary:
+
+We are seeking a GCP-focused Data Engineer to support the data ecosystem behind our Collections Application, which is used by agents for inbound and outbound outreach to customers struggling with payments before they transition into full collections. This role centers on ingesting and processing upstream data from many different sources, typically delivered as files, and transforming these datasets into high‐quality, reliable structures within BigQuery and Iceberg. You will build scalable pipelines using Airflow and Dataflow, ensuring timely, accurate data delivery for analytics, agent operations, and compliance functions.
+
+Day‐to‐Day Responsibilities
+
+Ingest and process multiple upstream data sources, often delivered as recurring files from internal teams, partner systems, or operational applications.
+Build, maintain, and optimize data pipelines using Apache Airflow for scheduling, orchestration, and monitoring.
+Develop and run transformation jobs using Dataflow (Apache Beam) to clean, normalize, and prepare data for downstream use.
+Create and manage lakehouse tables in Apache Iceberg, ensuring robustness, schema evolution support, and reliable metadata handling.
+Load processed datasets into BigQuery for operational reporting, analytics, and collections‐specific business use cases.
+Collaborate with analytics, risk, operations, and compliance teams to ensure data accuracy, lineage clarity, and timely availability.
+Troubleshoot ingestion issues, file anomalies, schema drift, and pipeline failures across a multi‐source environment.
+Document workflows, data flows, and ingestion patterns for internal consistency and audit/regulatory needs.
+
+Required Skills
+
+Hands-on experience with Google Cloud Platform (GCP).
+Strong experience with BigQuery for large-scale data storage and querying.
+Proficiency with Dataflow (Apache Beam) for data transformations.
+Experience designing and scheduling pipelines with Apache Airflow.
+Practical experience working with Apache Iceberg for lakehouse table management.
+Experience handling multiple upstream data sources, especially file-based ingestion into GCS.
+Ability to work with complex, sensitive financial datasets in a regulated environment.
+Strong problem-solving skills around ingestion failures, schema inconsistencies, and multi-source data environments.
+
+Preferred / Plus Skills
+
+GCP Data Engineer Certification (major plus).
+Experience supporting collections, delinquency, or financial servicing environments.
+Familiarity with CI/CD for data pipelines and automated deployment frameworks.
+Exposure to data governance, data quality frameworks, and lineage tools.
+Experience handling sensitive customer financial data with appropriate security controls.
+
+EEO:
+
+"Mindlance is an Equal Opportunity Employer and does not discriminate in employment on the basis of – Minority/Gender/Disability/Religion/LGBTQI/Age/Veterans."
+
+… more

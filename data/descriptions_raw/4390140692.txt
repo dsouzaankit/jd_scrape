@@ -1,0 +1,89 @@
+Senior Data Engineer
+
+100% Remote
+
+Overview
+
+As a Senior Data Engineer, you will work on data systems and services alongside other data engineers to deliver projects and platforms critical to the Platform Ventures business. This role requires strong technical leadership, hands‑on expertise, and the ability to solve complex data challenges while helping the organization continue to build scalable, high‑quality solutions for customers.
+
+Role Summary
+
+The Senior Data Engineer will design and develop data pipelines, data marts, and schemas to support enterprise data warehousing environments and advanced analytical requirements.
+
+Data Platform & Architecture
+
+Design and implement scalable data lakehouse architectures using AWS S3, Delta Lake, and Redshift
+Build and maintain high‑performance data pipelines to ingest, transform, and curate large datasets
+Define best practices for data modeling, partitioning, and storage optimization within a lakehouse and medallion architecture
+Develop and maintain data cataloging and metadata management solutions
+
+Data Engineering & Processing
+
+Develop ETL and ELT pipelines using Python, PySpark, and AWS Glue
+Build and maintain robust batch and streaming data pipelines
+Implement transformation workflows using DBT
+Optimize performance for Apache Spark workloads and Amazon Redshift queries
+
+Workflow Orchestration
+
+Design and maintain workflow orchestration using Apache Airflow
+Monitor pipeline performance and implement alerting, failure handling, and recovery mechanisms
+
+Data Governance & Quality
+
+Implement data validation, lineage, and monitoring frameworks
+Maintain data documentation and integrate with enterprise data catalogs
+Ensure data reliability, consistency, and security across all platforms
+
+DevOps & Automation
+
+Implement CI/CD pipelines for data workflows
+Automate testing, deployment, and monitoring of data pipelines
+Use infrastructure‑as‑code practices to maintain reproducible and scalable environments
+
+Collaboration
+
+Work closely with data consumers, analysts, and platform engineers
+Enable self‑service analytics through well‑structured datasets and semantic data models
+
+Minimum Qualifications
+
+7+ years of experience in data warehousing or OLAP environments
+7+ years of experience in multidimensional database architecture, data modeling, and design
+5+ years of advanced SQL experience
+3+ years of Python development experience
+2+ years of experience with Amazon Redshift
+2+ years of experience with NoSQL databases
+Experience managing teams and vendor partners
+Strong understanding of web development principles and techniques
+Experience with AWS Glue, Lambda, Step Functions, and Apache Airflow
+Experience ingesting data from APIs
+Strong background in dimensional data modeling
+Experience with formal systems development life cycle methodologies
+Experience implementing CI/CD pipelines for data workflows
+Experience working with data catalogs and metadata management solutions
+
+Desired Qualifications
+
+Experience operating and supporting AWS data warehouse platforms
+Experience with Tableau, Amazon QuickSight, Looker, big data platforms, and real‑time BI solutions
+Experience with streaming data technologies
+
+"Benefit offerings include medical, dental, vision, life insurance, short-term disability, additional voluntary benefits,
+EAP program, commuter benefits, and 401K plan. Our program provides employees the flexibility to choose the type
+of coverage that meets their individual needs. Available paid leave may include Paid Sick Leave, where required by
+law; any other paid leave required by Federal, State, or local law; and Holiday pay upon meeting eligibility criteria."
+
+"Equal Opportunity Employer/Veterans/Disabled
+To read our Candidate Privacy Information Statement, which explains how we will use your information, please navigate to https://www.lhh.com/us/en/candidate-privacy
+The Company will consider qualified applicants with arrest and conviction records in accordance with federal, state, and local laws and/or security clearance requirements, including, as applicable:
+• The California Fair Chance Act
+• Los Angeles City Fair Chance Ordinance
+• Los Angeles County Fair Chance Ordinance for Employers
+• San Francisco Fair Chance Ordinance"
+
+… more
+
+Benefits found in job post
+
+401(k), Commuter benefits, Medical insurance, Vision insurance, Dental insurance

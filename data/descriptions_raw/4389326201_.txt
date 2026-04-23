@@ -1,0 +1,66 @@
+Backstage is seeking a Data Engineer to help build and evolve the data foundation that supports many aspects of our business — enabling intelligent customer interactions, powering customer-facing products, and driving insights for fast-moving teams across the company.
+
+You will join our Data & Analytics team, which currently includes two Data Engineers, a Data Scientist, a Data Analyst and a Director, and sits within the larger Product & Engineering department of high-performance engineers, designers, product managers, analysts, and QA specialists. We value curiosity, trust, and impact, and we foster a culture of constant learning and improvement where teammates work together to accomplish user-focused initiatives in a supportive, open, and respectful environment. Our teams are experienced, nimble, collaborative, and considerate, and we actively create opportunities for everyone to learn and build new skills.
+
+Backstage's Data team has strategically built a data foundation that supports many aspects of the business. As a Data Engineer, you'll play a key role in maintaining and expanding this foundation with an unwavering commitment to data quality, consistency, and scalability. You'll not only answer business questions but also design durable data solutions that grow with the company's needs.
+
+You'll own major parts of Backstage's analytics data stack and partner closely with the BI, marketing, and product teams. You'll transform complex, raw data from multiple systems into clean, meaningful models that drive actionable insight across a growing global organization. This role requires top-tier SQL capabilities — someone skilled at writing advanced queries with layered business logic and translating ambiguous requirements into structured, reusable datasets.
+
+You'll report to Backstage's Director of Data and Analytics, and work cross-functionally to build sustainable, future-proof data infrastructure for marketing attribution, customer analytics, and operational reporting.
+
+What You'll Do
+
+Build, maintain, and optimize ETL pipelines that integrate and transform data from varied first- and third-party sources into analytics-ready models.
+Work with both structured data (e.g., relational tables) and unstructured event data (e.g., clickstream, telemetry) to create coherent, user-level datasets and customer journeys.
+Partner with analytics, finance, marketing, and product teams to design data models that reflect real business logic and connect customer behavior across systems.
+Transform event-level telemetry data into actionable customer journeys aggregated across time windows for product and marketing insight.
+Develop and manage data integration pipelines, including reverse ETL workflows using tools like Hightouch.
+Define audience segments, customer profiles, and attribution logic using SQL and dbt in a modern cloud data warehouse (e.g., Redshift).
+Implement and maintain CI/CD, version control, and automated data quality tests to ensure consistent, trustworthy reporting.
+Collaborate with marketing and BI to design dashboards in Looker and Amplitude that track campaign performance, segmentation, and ROI.
+Document data models and transformation logic for transparency and scalability.
+Balance short-term delivery with long-term maintainability, evolving models to support new business questions efficiently.
+Monitor data compliance impacts on tracking and reporting, ensuring alignment with privacy standards (such as GDPR and CCPA).
+
+What We're Looking For
+
+7+ years of professional experience in data engineering, analytics engineering, or related roles supporting marketing or product analytics.
+Expert-level SQL skills, demonstrated through real-world examples of complex transformations and business logic implementation.
+Strong understanding of event-based data structures and experience modeling user-level metrics from raw telemetry or clickstream data.
+Proficiency in modern ELT tools and frameworks (dbt), including writing modular, tested transformations.
+Experience configuring and optimizing large-scale cloud data warehouses (Redshift, Snowflake, or BigQuery).
+Hands-on experience with customer behavior event tracking and marketing attribution.
+Familiarity with reverse ETL patterns, marketing activation, and identity resolution workflows.
+Strong data governance mindset — aware of naming conventions, semantic definitions, and data lifecycle management.
+Excellent written and verbal communication skills; able to translate complex transformations into accessible explanations for technical and non-technical audiences alike.
+Driven by curiosity and a desire to help others make smarter, faster decisions through data.
+
+Special Work Conditions
+
+Sedentary – Involves sitting most of the time but may involve walking or standing for brief periods of time. Some positions may entail exerting up to 15 lbs. of force occasionally and/or a negligible amount of force to lift, carry, push, or pull.
+
+Benefits
+
+Cast & Crew provides a comprehensive package of employee benefits including: Medical, Dental, Vision, PTO, health and wellness programs, employee discounts, and more! Note: Cast & Crew benefits are subject to eligibility requirements.
+
+Cast & Crew is an equal opportunity employer committed to hiring a diverse workforce and sustaining an inclusive culture. It is our policy to provide equal employment opportunities to all individuals based on job-related qualifications and ability to perform a job, without regard to age, gender, gender identity, sexual orientation, race, color, religion, creed, national origin, disability, genetic information, veteran status, citizenship or marital status, and to maintain a non-discriminatory environment free from intimidation, harassment or bias based upon these grounds.
+
+CA residents
+
+Your personal information may be collected in connection with certain services provided by Cast & Crew or its affiliated companies. A summary of your California privacy rights can be found at: https://www.castandcrew.com/privacy-policy/
+
+Compensation is commensurate with various factors including, but not limited to, relevant experience, qualifications, skills, training, licensure, certifications, geographic cost of labor, and other business and organizational needs. Compensation range for candidates in other locations may differ based on the cost of labor in that location. The compensation range for this position is: $135,000.00 - $155,000.00 per year.
+
+… more
+
+Featured benefits
+
+Medical insurance, Vision insurance, Dental insurance, 401(k), Tuition assistance
+
+Requirements added by the job poster
+
+• 3+ years of work experience with SQL
+
+• 3+ years of work experience with Extract, Transform, Load (ETL)
+
+• No need for visa sponsorship

@@ -1,0 +1,51 @@
+Company Overview:
+
+Summit Financial LLC is a $26 billion Registered Investment Advisory (RIA) firm that has been providing comprehensive financial planning and wealth management services to high-net-worth individuals for over 40 years. Consistently recognized for our expertise, Summit currently ranks in the top 40 of all RIA firms by Barron's & Forbes and is one of the fastest growing RIAs in the country with close to 200 advisors across 30 states and headquarters in Parsippany, New Jersey.
+
+Overview:
+
+Summit Financial is building a robust, centralized Data Warehouse to power enterprise reporting and analytics. We seek a hands-on Senior BI Data Engineer with strong backend expertise to design and implement our data foundation from the ground up.
+
+Key Responsibilities:
+
+Build, test, and deploy reliable ETL/ELT pipelines to ingest and transform data from various operational sources into a new Data Warehouse.
+Develop foundational Data Warehouse architecture from scratch using dimensional modeling (star schemas) optimized for BI and reporting performance.
+Write and optimize complex SQL queries, stored procedures, views, and transformations for data cleansing, integration, and business logic.
+Structure and prepare warehouse data to support seamless Power BI backend modeling and downstream analytics.
+Automate, monitor, and maintain pipelines to ensure data accuracy, timeliness, and reliability.
+Troubleshoot performance issues, data quality, and integration challenges.
+
+Required Qualifications
+
+5+ years of hands-on ETL/ELT development experience.
+Proven experience building Data Warehouses from scratch, including dimensional modeling and BI-optimized schema design.
+Expert SQL skills (complex joins, window functions, stored procedures, performance tuning) in relational/on-premises databases.
+Strong background in data integration from databases, files, and APIs, with focus on end-to-end pipeline reliability.
+
+Preferred
+
+Experience with Boomi (or similar ETL/integration tools like SSIS) for process building, mappings, and connectors.
+Power BI backend expertise: tabular data modeling, relationships, basic DAX for measures/columns, and dataset optimization for reporting (no visualization/dashboard authoring required).
+Familiarity with Microsoft on-premises stack (SQL Server, etc.).
+Experience in the financial services industry (e.g., wealth management or investment advisory), with an understanding of financial data types, reporting requirements, and regulatory considerations.
+A proactive builder who translates architecture into scalable, production-ready data infrastructure.
+Strong ownership of data quality, accuracy, and delivery.
+Collaborative team player excited to shape a growing internal data environment.
+
+Pay: From $150,000.00 per year
+
+*Applicants must be legally authorized to work in the U.S., we are unable to provide visa sponsorship for this position.
+
+Must-have qualifications
+
+Employment eligibility to work in the U.S with sponsorship is required.
+
+… more
+
+Requirements added by the job poster
+
+• 1+ years of work experience with Data Warehousing
+
+• Authorized to work in the United States
+
+• 5+ years of work experience with Extract, Transform, Load (ETL)

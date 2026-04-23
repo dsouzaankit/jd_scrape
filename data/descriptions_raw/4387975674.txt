@@ -1,0 +1,48 @@
+By bringing together next-gen technology and the finest live data available, Genius Sports is enabling a new era of sports for fans worldwide, delivering experiences that are more immersive, interactive and personalized than ever before. Learn more at geniussports.com.
+
+About The Role
+
+We are looking for a Senior Software Engineer who is hungry to learn continuously and take ownership of the tools and products that they work on in accordance with best practices for Agile Software Development. We believe that a good engineer can move from one project to another and can learn new skills effortlessly if they are motivated by what they do. Don't let the language or framework you know now be a barrier to applying for the role you would like!
+
+We will lean on your technical expertise and your pragmatic approach to problem solving; working in a team that prioritizes the principles of Agile delivery and continuous improvement. You will have a Data-driven, evidence-based mentality, comfortable with the principles of continuous experimentation and validation.
+
+Key Responsibilities
+
+Design, develop, and maintain scalable and robust data pipelines for extraction, transformation, and loading (ETL) of large datasets.
+Optimize data processing jobs and database queries for maximum performance and efficiency.
+Implement and manage data storage solutions, including data warehouses, data lakes, and other distributed systems.
+Write clean, maintainable, and efficient code for data ingestion, processing, and analysis.
+Troubleshoot and debug data pipeline issues, ensuring data quality and integrity.
+Stay up-to-date with emerging data engineering technologies, tools, and best practices.
+Mentor and support other team members in data engineering principles and practices.
+
+Qualifications
+
+Proficiency in Java, Python, Kotlin, or Scala.
+Experience with big data technologies such as Spark, Hadoop, and Kafka.
+Familiarity with workflow orchestration tools like Apache Airflow.
+Experience with streaming data platforms like Kafka, Pulsar, Flink
+Experience with building data pipelines and assets, deployed on AWS services such as EMR, EMR Serverless, and AWS Glue
+Experience with relational and NoSQL databases.
+Familiarity with version control systems (e.g., Git).
+Excellent problem-solving skills and attention to detail.
+Ability to work independently and as part of a team.
+Strong communication skills.
+
+Preferred Qualifications
+
+Experience working with big data technologies (e.g., Spark, Hadoop, Flink).
+Knowledge of modern data pipelines and orchestration tools (e.g., Airflow, Dagster).
+Familiarity with Agile development methodologies.
+Experience with data quality and testing frameworks.
+
+The salary for this role is based on an annualized range of $180,000 - $240,000 USD. This role will also be eligible to take part in Genius Sports Group's benefits plan.
+
+We enjoy an 'office-first' culture and maximize opportunities to collaborate, connect and learn together. Our hybrid working models differ depending on your role and location. Occasional travel may be required.
+
+As well as a competitive salary and range of benefits, we're committed to supporting employee wellbeing and helping you grow your skills, experience and career. Learn more about how rewarding life at Genius can be at Reward | Genius Sports. One team, being brave, driving change
+
+We strive to create an inclusive working environment, where everyone feels a sense of belonging and the ability to make a difference. Learn more about our values and culture at Culture | Genius Sports.
+
+Let us know when you apply if you need any assistance during the recruiting process due to a disability.
+… more

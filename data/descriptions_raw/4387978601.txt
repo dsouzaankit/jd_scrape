@@ -1,0 +1,48 @@
+By bringing together next-gen technology and the finest live data available, Genius Sports is enabling a new era of sports for fans worldwide, delivering experiences that are more immersive, interactive and personalized than ever before. Learn more at geniussports.com
+
+About The Role
+
+We are looking for strong Data engineers who are hungry to learn continuously and take ownership of the tools and products that they work on in accordance with best practices for Agile Software Development. We believe that a good engineer can move from one project to another and can learn new skills effortlessly if they are motivated by what they do. Don't let the language or framework you know now be a barrier to applying for the role you would like!
+
+We will lean on your technical expertise and your pragmatic approach to problem solving; working in a team that prioritizes the principles of Agile delivery and continuous improvement. You will have a Data-driven, evidence-based mentality, comfortable with the principles of continuous experimentation and validation.
+
+Key Responsibilities
+
+Design, develop, and maintain data processing applications and services using Spark, Java, Kotlin
+Build and maintain ETL pipelines and Data Processing architectures
+Implement and manage relational databases, ensuring data integrity and performance.
+Optimize applications for maximum speed and scalability.
+Write clean, maintainable, and efficient code.
+Troubleshoot and debug applications.
+Stay up-to-date with emerging technologies and industry trends
+
+Qualifications
+
+Proven experience as a Software Engineer.
+Proficiency in one distributed columnar data store (Spark, Hive, Redshift, Presto, Snowflake)
+Proficiency in a compiled language(Java, Scala, Kotlin, Python)
+Strong understanding of relational databases (e.g., MySQL, PostgreSQL).
+Familiarity with version control systems (e.g., Git).
+Excellent problem-solving skills and attention to detail.
+Ability to work independently and as part of a team.
+Strong communication skills.
+
+Preferred Qualifications
+
+Experience with cloud platforms (e.g., AWS, Azure, GCP).
+Familiarity with Agile development methodologies.
+Experience with testing frameworks (e.g., JUnit).
+Familiarity with Kubernetes / Docker
+
+The base salary range for this role is $145,000 - $200,000. There are a number of factors which affect what the specific pay offer would be for this role, including location, seniority, and relevant educational and working experience. This is base salary only – all full-time roles will also be eligible to take part in Genius benefits and some roles may be eligible to take part in a variable compensation plan. For more details on the compensation and benefits package, please get in touch with our Talent team.
+
+We enjoy an 'office-first' culture and maximize opportunities to collaborate, connect and learn together. Our hybrid working models differ depending on your role and location. Occasional travel may be required.
+
+As well as a competitive salary and range of benefits, we're committed to supporting employee wellbeing and helping you grow your skills, experience and career. Learn more about how rewarding life at Genius can be at Reward | Genius Sports.
+
+One team, being brave, driving change
+
+We strive to create an inclusive working environment, where everyone feels a sense of belonging and the ability to make a difference. Learn more about our values and culture at Culture | Genius Sports.
+
+Let us know when you apply if you need any assistance during the recruiting process due to a disability.
+… more

@@ -1,0 +1,48 @@
+Designation: Lead Data Engineer (25% Architect, 75% Hands-on Development)
+
+Job Location: New York City, Hybrid
+
+Experience: 6 - 12 years
+
+Expected work split
+
+25% – Architecture design, team management/mentoring, client communication
+75% – Hands‑on coding, orchestration, and pipeline monitoring
+
+Onshore Data Architect and Data Engineering Lead (preferably NY location)
+
+Collaborate with client stakeholders to gather requirements, structure problems, and ensure high‑quality, timely delivery.
+Experience working hands-on in the Databricks tech stack with strong proficiency in SQL, Python, and PySpark
+Build, orchestrate, and monitor scalable data pipelines on Databricks, ensuring reliable ingestion, transformation, CDC handling, and incremental load strategies.
+Manage end‑to‑end pipeline operations including performance tuning, data quality monitoring, alerting, and issue resolution across production workloads.
+Design and optimize data models, marts, and Lakehouse/warehouse layers with strong focus on medallion architecture, query optimization, and performance engineering.
+Lead a project team of 5 – 10 data engineers supporting multiple workstreams and provide technical leadership through code reviews, best‑practice guidance, reusable pattern creation, and mentorship to engineering team members.
+
+Qualifications (Required):
+
+Bachelor's or Master's degree in economics, mathematics, computer science/engineering, operations research or related analytics areas
+Demonstrated leadership ability and willingness to take initiative
+Entrepreneurial hands-on approach to work
+Superior analytical and problem solving skills
+Outstanding written and verbal communication skills
+Effective time management and attention to detail
+6-10 years' experience in data analytics or data engineering role
+Hands on experience in using SQL, Python and Workflow Schedulers (Apache Airflow, Cron)
+Experience in leading team and coordinating with internal / external stakeholders
+
+Qualifications (Preferred):
+
+Experience in using Cloud Platforms (AWS / GCP / Azure)
+Experience in using Visualization tools (Tableau / Power BI)
+Experience with Big Data Technologies (Hadoop, Hive, Hbase, Pig, Spark, etc.)
+… more
+
+Featured benefits
+
+Medical insurance, Vision insurance, Dental insurance, 401(k), Disability insurance
+
+Requirements added by the job poster
+
+• Authorized to work in the United States
+
+• No need for visa sponsorship

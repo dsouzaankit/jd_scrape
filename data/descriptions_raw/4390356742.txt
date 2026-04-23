@@ -1,0 +1,66 @@
+Who We Are
+
+Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, risk, ESG, and InfoSec platform on the market. More than 50% of the Fortune 500, including 7 of the Fortune 10, leverage our award-winning technology to move their businesses forward with greater clarity and agility. And our customers love us: Optro is top-rated on G2.com and Gartner Peer Insights.
+
+At Optro, we inspire each other to innovate and are proud of what we are producing. We spend each day thinking of new ways to help our customers and contribute to the greater good of our company and our surrounding communities. We are all about assisting each other and breaking through barriers to create the most loved audit, risk, ESG, and InfoSec platform by our customers. This is how we have become one of the 500 fastest-growing tech companies in North America for the seventh year in a row, as ranked by Deloitte!
+
+Why This Role is Exciting
+
+We are seeking a Senior Data Analytics Engineer to build and scale the enterprise data foundation that powers our Post-Sales organization and Product Engineering teams. This role sits at the center of Customer Success, Renewals, Professional Services, Support, Customer Education, and Product, ensuring that trusted, well-governed data enables smarter decisions across the entire customer lifecycle.
+
+You will design and own scalable data pipelines, optimize data models, and establish governance standards that improve retention forecasting, risk identification, operational efficiency, product telemetry insights, and AI enablement. This is a high-impact opportunity to shape how Optro leverages customer and product data to drive growth, protect revenue, and accelerate innovation.
+
+Key Responsibilities
+
+Design, build, and maintain scalable data pipelines that ingest and transform data across Salesforce, Gainsight, Rocketlane, Zendesk, Snowflake, product telemetry, and other core systems
+Strategic partner with Customer Ops & Analytics, Enterprise Data Engineering and Product Operations teams to be a thought leader to design scalable data solutions.
+Develop reliable data models that power renewal forecasting, churn prediction, customer health scoring, professional services metrics, support performance, and product usage
+Implement CI/CD, data testing, and documentation best practices to ensure scalable, secure, and auditable transformations
+Optimize warehouse performance and data architecture for speed, cost efficiency, and reliability
+Partner with Product and Engineering to design telemetry schemas and ensure meaningful product instrumentation, while building pipelines that translate product usage data into actionable insights for both Product teams and Post-Sales teams
+Architect data structures that support AI/ML use cases including churn prediction, renewal forecasting, workflow automation, and sentiment analysis
+Implement monitoring and validation frameworks to proactively detect data inconsistencies
+Familiarity with using Python for basic to advanced data processing tasks
+Develop and document data or system models, flow diagrams and architecture guidelines
+
+Attributes for a Successful Candidate
+
+Bachelor's degree in Computer Science, Engineering, or related field
+5+ years of experience in data engineering, analytics engineering, or similar role within a SaaS environment
+Strong expertise in SQL and modern data stack technologies (Snowflake, dbt and Tableau)
+Experience building scalable ETL/ELT pipelines and data models across multiple business systems
+Familiarity with CRM (Salesforce), CS tools (Gainsight), and product telemetry environments (Amplitude / Pendo), Support (Zendesk)
+Strong cross-functional collaboration skills with the ability to translate business requirements into technical solutions
+Experience working in high-growth SaaS environments
+Understanding of SaaS metrics including NRR, GRR, ARR, retention forecasting, and customer health scoring
+
+Our Company Values
+
+Customer obsession: It starts and ends here. Consistently ask yourself how what you're doing creates value for our customers. It's a mindset.
+Gritty resilience: Make it happen. Find a way. Move fast, stay positive, and do what it takes.
+Drive innovation: Create the future. Continuously improve what exists and invent what's next.
+Win, together: One team. No silos, no egos. Drive to be the best and support each other's success.
+Growth mindset: 10x, not 10%. Think in orders of magnitude, not increments. Seek feedback, learn, and improve.
+
+Perks*
+
+Launch a career at one of the fastest-growing SaaS companies in North America!
+Live your best life (LYBL)! $200/mo for anything that enhances your life
+Comprehensive employee health coverage (all locations)
+401K with match (US) or pension with match (UK)
+Competitive compensation & bonus program
+Flexible Vacation (US exempt & CA) or 25 days (UK)
+Time off for your birthday & volunteering
+Employee resource groups
+Opportunities for team and company-wide get-togethers!
+perks may vary based on eligibility/location
+
+Please note that background checks are required. Qualified Applicants with arrest or conviction records will be considered for Employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. This role may have access to highly sensitive data, including employee data, customer data, company financials, and proprietary product information.
+
+We love building strong partnerships, but please note that Optro cannot accept unsolicited resumes from agencies. Any submissions without a signed agreement in place will not create a fee obligation.
+
+… more
+
+Benefits found in job post
+
+401(k)

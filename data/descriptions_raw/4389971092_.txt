@@ -1,0 +1,90 @@
+Position Overview
+
+Come join our growing team of data practitioners and be on the leading edge of Burlington's digital transformation! Burlington is seeking a self-driven and highly motivated individual to join a dynamic team with a passion for data, software, and engineering. At Burlington you will have the opportunity to work with the latest technologies in a goal-oriented environment. The Senior Data Engineer is a member of the Enterprise Data and Analytics team supporting business areas including Merchandising, Allocations, Marketing, IT and Supply Chain Analytics teams with insights gained from analyzing Burlington and external data. The successful candidate will have strong experience pulling data from various internal and external data sources and preparing it for advanced analytics, segmentation, and modeling. Must have strong interpersonal and relationship building skills as well as written and verbal communication skills.
+
+A Day In The Life
+
+Design and Develop ETL to extract data from first and third-party data sources, stitch, and wrangle it for advanced analytics activities and AI/ML and GenAI uses.
+Guide and lead development of data pipelines to enable real-time, high volume, data consumption.
+Leverage data engineering best practices and tools in collaboration with analytics translators, data scientists, and cloud engineers
+Assist with researching first and third-party data sources to enable access and ensure availability of relevant data sources for those who need it
+Provide input to cloud engineers for the design and implementation of data management and/or architecture solutions
+Provide ongoing operational support for ETL/ELT environments including development, test, and production
+Design, implement, and deploy data loaders to load data into the cloud data platform
+Assist in pulling, filtering, tagging, joining, parsing, and normalizing data sets for use
+Mentoring junior members of the team
+
+You'll Come With
+
+Education:
+
+Bachelor's or Master's degree in Computer Science / Engineering, Informatics, or related areas.
+
+Experience:
+
+5+ years of experience in designing and implementing large scale data loading, manipulation, processing, analysis, and exploration solutions
+Extensive experience developing SQL based data processing
+5+ years of experience with Data Architecture, Data Warehouse, Lake Houses, Data Lake, Data Marts and Data Stores with focus on AI/ML techniques and LLMs
+Experience with Snowflake and Oracle Databases as well as Azure and ADLS.
+Experience in development & provisioning RESTful APIs to enable real-time data consumption.
+Experience with source control tools such as GitHub and related CI/CD processes.
+
+Skills and Abilities:
+
+Technical expertise with pulling and massaging data
+Great understanding of first/third party data
+Agile Development methodology
+Database Normalization
+Advanced SQL skills
+Understanding of data management principles and processes
+Passion for data, analytics and pushing business innovation
+Strategic thinker who loves technology and innovation
+Excellent communication skills
+AI-based development for data workflows, data wrangling, and code-assist
+
+Preferred Skills:
+
+Experience with Informatica IDMC
+Experience with GenAI and Natural Language Processing (NLP) frameworks
+Experience with real-time and streaming technology (i.e. Azure Event Hubs, Azure Functions Kafka, Spark Streaming)
+Unix / Linux Experience
+Experience with CI/CD practices
+Previous experience with DevOps
+Experience with Python / Java programming languages
+Experience with one or more enterprise scheduler
+Experience with AI-based testing, experimentation and prototyping
+Retail or CPG experience preferred
+
+Come join our team. You're going to like it here!
+
+You will enjoy competitive wages, flexible hours, and an associate discount. Burlington's benefits package includes medical, dental and vision coverage including life and disability insurance. Full-time associates are also eligible for paid time off, paid holidays and a 401(k) plan. We are a rapidly growing brand and provide a variety of training and development opportunities so our associates can grow with us. Our teams work hard and have fun together! Burlington associates make a difference in the lives of customers, colleagues, and the communities where we live and work every day. Burlington Stores, Inc. is an equal opportunity employer committed to workplace diversity.
+
+Individual pay decisions will be based on a variety of factors, such as but not limited to, qualifications, education, job-related skills, relevant experience, and geographic location.
+
+Min-Mid $80,000.00 - $105,000.00
+
+Posting Number R102486
+
+Location New Jersey-Edgewater Park
+
+Address 4287 Route 130 S
+
+Zip Code 08010
+
+Pay Rate Salaried
+
+Career Site Category Corporate
+
+Position Category Information Technology
+
+Job Type Full-Time
+
+Remote Type Hybrid
+
+Evergreen No
+
+… more
+
+Benefits found in job post
+
+Disability insurance, 401(k)

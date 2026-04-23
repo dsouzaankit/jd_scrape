@@ -1,0 +1,50 @@
+Job Summary
+
+We are looking for a Data Engineer with 4+ years of experience and strong exposure to AI/ML systems. The ideal candidate will be responsible for building scalable data pipelines, enabling machine learning workflows, and supporting AI-driven applications. You will work closely with data scientists, ML engineers, and product teams to ensure reliable and efficient data infrastructure.
+
+Key Responsibilities
+
+Design, build, and maintain scalable data pipelines for structured and unstructured data.
+Develop and optimize ETL/ELT processes for data ingestion, transformation, and loading.
+Support AI/ML use cases by preparing high-quality datasets for training and inference.
+Work with ML engineers to deploy and monitor machine learning models in production.
+Build and manage data lakes, warehouses, and real-time data streaming systems.
+Ensure data quality, governance, and security best practices.
+Optimize data processing performance using distributed computing frameworks.
+Collaborate with cross-functional teams to deliver data-driven solutions.
+
+Required Skills & Qualifications
+
+4+ years of experience in Data Engineering or related roles.
+Strong programming skills in Python, Scala, or Java.
+Hands-on experience with SQL and database systems (PostgreSQL, MySQL, etc.).
+Experience with big data technologies such as Apache Spark, Hadoop, or Kafka.
+Familiarity with cloud platforms such as AWS, Azure, or GCP.
+Understanding of data modeling, data warehousing, and ETL concepts.
+Exposure to AI/ML workflows, including feature engineering and model data pipelines.
+Experience working with APIs and microservices.
+
+AI/ML-Specific Requirements
+
+Experience supporting machine learning pipelines and workflows.
+Understanding of feature stores, model training data preparation, and inference pipelines.
+Familiarity with tools such as MLflow, Airflow, or Kubeflow.
+Knowledge of vector databases and Retrieval-Augmented Generation (RAG) is a plus.
+
+Good to Have
+
+Experience with Generative AI and LLM-based applications.
+Knowledge of containerization tools like Docker and orchestration tools like Kubernetes.
+Experience with real-time streaming pipelines.
+Familiarity with data governance and compliance standards (e.g., GDPR, HIPAA).
+
+Soft Skills
+
+Strong problem-solving and analytical skills.
+Excellent communication and collaboration abilities.
+Ability to work in a fast-paced and agile environment.
+Ownership mindset with attention to detail.
+
+Apply Here :- https://freelancer.expertshub.ai/auth/sign-up?marketingCode=EXPMRJEN002
+
+… more

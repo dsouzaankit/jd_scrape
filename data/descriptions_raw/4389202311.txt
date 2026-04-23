@@ -1,0 +1,35 @@
+Data Engineering & Architecture
+
+Design, build, and maintain scalable ETL/ELT pipelines to ingest, transform, and load data from Azure SQL, ERP systems (SAP, Sage), marketing platforms, web analytics, and other sources. Own and evolve the enterprise data model to support changing business needs, continuously modeling and integrating new data sources. Manage and optimize the enterprise data warehouse (Snowflake or equivalent), ensuring performance, scalability, and reliability. Develop reusable data transformation logic using SQL and Python while enforcing strong data quality standards. Lead integration of newly acquired business data into the enterprise data environment.
+
+Business Intelligence & Reporting
+
+Design and deliver dashboards and self-service reporting solutions (Power BI preferred). Partner cross-functionally with finance, operations, marketing, customer service, and e-commerce teams to translate business needs into scalable data solutions. Define and standardize KPIs (margin, CAC, customer metrics, manufacturing metrics, etc.) and build data models that enable fast, accurate analysis. Train and support business users on reporting tools and best practices.
+
+Required Qualifications
+
+5–8+ years of experience in BI, data engineering, or analytics engineering.
+
+Deep expertise in Microsoft SQL (Azure SQL preferred).
+
+Strong experience building data pipelines using SQL, Python, or ETL tools.
+
+Hands-on experience with data modeling tools (dbt, SQLMesh, Coalesce).
+
+Proficiency in Power BI, Tableau, or similar BI tools.
+
+Experience with modern data warehouses (Snowflake, Azure Synapse, BigQuery) and dimensional modeling concepts (facts, dimensions, star schema).
+
+Familiarity with cloud platforms (Azure preferred) and modern data stack tools (Fivetran, Stitch).
+
+Experience working with complex, disparate, or unstructured data sources.
+
+… more
+
+Requirements added by the job poster
+
+• Authorized to work in the United States
+
+• No need for visa sponsorship
+
+• Working in a hybrid setting

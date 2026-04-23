@@ -1,0 +1,33 @@
+Piper Companies is seeking a Lead Data Engineer for a University Hospital in Fort Washington, Pennsylvania. This role leads enterprise data architecture, focusing on scalable solutions, governance, and aligning data initiatives with business goals. The position partners with leadership to drive innovation through modern data and cloud technologies.
+
+Responsibilities
+
+Define enterprise data architecture & infrastructure strategy
+Design & manage data warehouses, lakes, hybrid environments
+Implement automation, DevOps, and CI/CD best practices
+Evaluate & adopt new technologies (AI/ML, advanced analytics)
+Collaborate with leadership & cross-functional teams
+
+Qualifications
+
+Bachelor's in Business, CS, Information Systems, or related
+7+ years in data engineering & infrastructure
+Proficient in Python, SQL, ETL, and data integration
+Experience with BI tools, data modeling, and cloud platforms (Azure)
+Knowledge of data governance, security, and compliance frameworks
+
+Compensation for the Planner Includes:
+
+Targeted Base Salary: $145,000-150,000 *depending on experience*
+
+Comprehensive Benefits: Medical, Dental, Vision, 401K, PTO, and other benefits aligned with company policy
+
+Keywords: Bachelor's degree, Business, Computer Science, Information Systems, 7+ years experience, data engineering, data infrastructure, cloud platforms, Azure Data Factory, Azure Synapse, Python, SQL, ETL, data pipelines, BI tools, Power BI, Tableau, data modeling, AI/ML integration, advanced analytics, data governance, compliance, security frameworks, DevOps, CI/CD, technical leadership, strategic planning, cloud resource management, performance optimization
+
+This job opens for applications on (03/24/2026). Applications for this job will be accepted for at least 30 days from the posting date.
+
+… more
+
+Benefits found in job post
+
+401(k)

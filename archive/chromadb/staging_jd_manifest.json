@@ -1,0 +1,20 @@
+{
+  "chroma_path": "archive/chromadb/chroma_persist",
+  "collection": "staging_jd",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "num_jobs": 20,
+  "num_vectors": 369,
+  "source_json": "data/linkedin_data_engineer_edison_50mi.json",
+  "exported_at_utc": "2026-03-29T21:38:53.238309+00:00",
+  "metadata_fields": [
+    "similarity_to_requirements",
+    "has_requirements_sections",
+    "requirements_headers",
+    "job_id",
+    "chunk_index",
+    "url",
+    "title",
+    "company",
+    "location"
+  ]
+}

@@ -1,0 +1,53 @@
+Svitla Systems Inc. is looking for a Senior Data Engineer for a full-time position (40 hours per week) in the USA - NY, NJ or CT (5 days/week at NY office). Our client is an investment management firm.
+
+The Data Platform team manages data pipelines, web scrapes, the data warehouse, and data models across the organization. You'll join a team of brilliant and highly dedicated individuals to build and maintain a next-gen, greenfield data platform for the hedge fund. You will work closely with investment, risk, trading, data science, and technology teams to build a robust, flexible data platform and data warehouse that serves as the single source of truth for our investment ecosystem. It is a hands-on engineering role for someone who loves data modeling, understands how a hedge fund "ticks" from front to back, and wants to own critical production systems end-to-end. You will enable best-in-class data engineering practices, drive the approach to modeling and using investment data, and build data APIs, backend systems, and data models that directly support portfolio managers, risk, trading, and alternative data research.
+
+Responsibilities
+
+Own core investment data domains, design and evolve data models for:
+
+Security master and instrument taxonomy across asset classes;
+
+Reference data (identifiers, classifications, calendars, corporate actions);
+
+Transactions, positions, exposures, and holdings across portfolios and strategies;
+
+P&L and returns (intraday and end-of-day, attribution-ready);
+
+Market data and benchmarks required for risk and performance.
+
+Define and enforce data modeling standards (naming, normalization, SCD strategy, partitioning, performance).
+
+Build and operate production data pipelines.
+
+Design, implement, and maintain scalable batch of data pipelines to ingest, cleanse, normalize, and reconcile data from many internal and external data sources.
+
+Implement robust data quality, lineage, and reconciliation processes for transactions, positions, and P&L.
+
+Continuously improve data by adding new sources, coding business rules, and producing new metrics that support investment, trading, and risk decisions.
+
+Build reusable data services and APIs that expose curated investment datasets to downstream consumers (portfolio managers, risk, quantitative research, dashboards, and external platform providers).
+
+Partner with the Quantitative Research/Risk Team to package and disseminate data and analytics to the investment team via e-mail, dashboards, and integrated tools.
+
+Qualifications
+
+5+ years of strong experience in software & data engineering, data modeling, and data architecture, ideally on the buy side (hedge fund, asset manager, or multi-strategy platform).
+
+Deep knowledge of Python and SQL.
+
+Proven experience building production-grade data pipelines and warehousing solutions.
+
+Strong understanding and hands-on experience with core investment data domains: security master and reference data (identifiers, classifications, corporate actions), transactions, positions, holdings, and exposures, P&L and performance (including reconciliation concepts), market data, and pricing.
+
+Experience building scalable data pipelines and data platforms using Snowflake, Spark, dbt, Airflow, Dagster, and  (or equivalent cloud stack).
+
+Strong understanding of normalized and dimensional data modeling, partitioning/clustering, auditing, and performance tuning.
+
+Demonstrated data quality mindset. Experience designing and implementing validation checks, reconciliation logic, and monitoring for positions and P&L.
+
+Ability to communicate technical concepts clearly to diverse audiences (investors, risk, trading, data science, technology) and to document systems and data contracts
+
+Experience working for hedge funds, investment companies, banks, fintech, etc. Experience working in highly regulated financial environments.
+
+… more

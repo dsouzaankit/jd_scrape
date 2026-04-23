@@ -1,0 +1,59 @@
+The Position
+
+A healthier future. It's what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for generations to come. Creating a world where we all have more time with the people we love. That's what makes us Roche.
+
+Advances in AI, data, and computational sciences are transforming drug discovery and development. Roche's Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED are essential to maximising these opportunities. The new Computational Sciences Center of Excellence (CoE) is a strategic, unified group whose goal is to harness this transformative power of data and Artificial Intelligence (AI) to assist our scientists in both pRED and gRED to deliver more innovative and transformative medicines for patients worldwide.
+
+The Opportunity
+
+At Genentech and Roche, we're at the forefront of a revolutionary transformation in drug discovery powered by AI and machine learning. Our "lab in the loop" strategy processes massive quantities of experimental data to train AI models that accelerate the discovery of new medicines. To enable this vision, we're seeking an exceptional Senior Data Engineer to be part of the team building and maintaining our next-generation Therapeutic Molecule Registration (TMR) platform - a foundational component of our AI-driven drug discovery infrastructure, Lab-in-the-Loop (https://www.youtube.com/watch?v=cN1PxxQWoEc). This platform will serve as the central nervous system for managing and integrating molecular data across our global research organization, handling hundreds of billions of records and enabling unprecedented scale in virtual molecule design and testing. As the volume of AI-generated molecular designs grows exponentially, our TMR platform must evolve to become a high-performance, cloud-native system capable of supporting rapid iteration cycles between computational design and experimental validation. You will be instrumental in consolidating our molecule registration systems into a single, harmonized environment, unlocking the full potential of our data and accelerating the development of life-changing therapies. The ideal candidate has a proven record of standing up, migrating, and scaling databases with experience in chemical and/or biological registration systems. You will work on implementing scalable solutions for molecular data management and contribute to the architecture of our cloud-native platform.
+
+You will work closely with our machine learning for drug development team, Genentech Research & Early Development (gRED) Drug Discovery teams including the Antibody Engineering division, and other teams across the Roche family of companies to identify, strategize, and productionalize high-impact applications from across the drug discovery and development pipeline. Genentech provides a dynamic and challenging environment for cutting-edge, multidisciplinary research in AI and drug discovery including access to rich sources of data, close links to top academic institutions around the world, as well as internal Genentech and Roche partners and research units.
+
+In this role, you will:
+
+Design and implement features of our TMR data model
+Oversee cloud data migration to TMR and production deployment
+Contribute to technical design discussions and architecture decisions
+Write high-quality, testable code for chemical registration workflows
+Support and mentor junior team members
+Collaborate with scientists and other engineers to implement business requirements
+
+Who You Are
+
+You have 7+ years of data engineering experience
+You have expert knowledge of Postgres SQL and experience with Oracle
+Skilled with at least one modern data toolkit (Glue, dbt, Databricks,...)
+Experience with cloud platforms (preferably AWS)
+Python programming skills
+Strong testing practices and test automation
+Understanding of CI/CD pipelines
+Experience with agile development methodologies
+
+Preferred
+
+Open source cheminformatics experience (e.g., RDKit, chemfp, Indigo, HELM toolkit)
+Chemical database cartridge expertise
+Familiarity with biological sequence alignment
+Chemical & biological structure notation expertise
+Familiarity with chemical structure canonicalization
+Molecular structure searching algorithm expertise
+Experience with scientific software development
+Familiarity with Docker and Kubernetes
+Experience with event-driven architectures
+Knowledge of security best practices
+
+Relocation benefits are available for this job posting
+
+The expected salary range for this position, based on the primary location of New York is $141,100 - 262,200. Actual pay will be determined based on experience, qualifications, geographic location, and other job-related factors permitted by law. A discretionary annual bonus may be available based on individual and Company performance. This position also qualifies for the benefits detailed at the link provided below.
+
+Benefits
+
+#ComputationCoE
+
+#tech4lifeComputationalScience
+
+Genentech is an equal opportunity employer. It is our policy and practice to employ, promote, and otherwise treat any and all employees and applicants on the basis of merit, qualifications, and competence. The company's policy prohibits unlawful discrimination, including but not limited to, discrimination on the basis of Protected Veteran status, individuals with disabilities status, and consistent with all federal, state, or local laws.
+
+If you have a disability and need an accommodation in relation to the online application process, please contact us by completing this form Accommodations for Applicants.
+… more

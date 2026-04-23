@@ -1,0 +1,10 @@
+# Local DuckDB (override path with JD_STAGING_DATA_DIR)
+data/*.duckdb
+data/*.db
+
+# Optional EPUB library for batch ingest (override with JD_BOOKS_DIR)
+books/*
+!books/.gitkeep
+
+# Generated next to the DB when embedding
+**/jds_books_duckdb_manifest.json

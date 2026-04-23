@@ -1,0 +1,35 @@
+Job Role: Sr./Lead AWS Data Engineer
+
+Location: Jersey City, NJ (Hybrid Onsite)
+
+Eligibility: USC, GC, GC-EAD only
+
+Pay Rate: $70-$72/hr. on C2C
+
+Interview Process: 2 rounds, 1 virtual and 1 in person
+
+Must have:
+
+-Python
+
+-Apache Airflow/DBT
+
+-Communication, both written & verbal
+
+-Kubernetes
+
+-OpenShift
+
+-8+ years of experience
+
+We are seeking a highly skilled Senior Data Engineer with 8+ years of hands-on experience in enterprise data engineering, including deep expertise in Apache Airflow DAG development, dbt Core modeling and implementation, and cloud-native container platforms (Kubernetes / OpenShift).
+
+This role is critical to building, operating, and optimizing scalable data pipelines that support financial and accounting platforms, including enterprise system migrations and high-volume data processing workloads.
+
+The ideal candidate will have extensive hands-on experience in workflow orchestration, data modeling, performance tuning, and distributed workload management in containerized environments.
+
+… more
+
+Requirements added by the job poster
+
+• Working in a hybrid setting

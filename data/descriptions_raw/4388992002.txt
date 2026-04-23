@@ -1,0 +1,46 @@
+Summary
+
+The Senior Staff Data Engineer is responsible for leading data infrastructure initiatives and driving operational excellence across the data engineering function. This role ensures reliable data ingestion, orchestration, and application delivery while supporting organizational analytics goals and fostering a culture of technical excellence and collaboration. The Senior Staff Data Engineer serves as a strategic partner to analytics, engineering, and business intelligence teams.
+
+Responsibilities
+
+Designing, implementing, and maintaining scalable data pipelines and orchestration workflows using Airflow and modern data stack technologies
+Building and optimizing data ingestion processes from diverse sources to support analytics and business applications
+Developing and maintaining analytics engineering workflows using dbt, SQL, and Python to transform raw data into analytics-ready models
+Leading code reviews, establishing best practices, and mentoring junior engineers on data DevOps principles and tooling
+Collaborating with analytics and BI teams to understand requirements and deliver robust data solutions
+Monitoring pipeline performance, data quality metrics, and system health while implementing proactive improvements
+Managing data infrastructure as code, CI/CD pipelines, and deployment automation for data applications
+Documenting technical specifications, architectural decisions, to ensure knowledge sharing and maintainability
+
+Requirements
+
+Bachelor's degree in Computer Science, Data Engineering, Information Systems, or equivalent experience
+7+ years of experience in data engineering, analytics engineering, or DevOps roles with demonstrated progression in technical complexity
+Advanced proficiency in Python for data processing, automation, and application development
+Expert-level SQL skills and hands-on experience with dbt for analytics engineering
+Experience with workflow orchestration tools, preferably Apache Airflow, for managing complex data pipelines
+Strong understanding of data warehousing concepts, ETL/ELT patterns, and modern data stack technologies
+Proven ability to work collaboratively with cross-functional teams and translate business requirements into technical solutions
+Excellent problem-solving skills with a track record of troubleshooting complex data issues and implementing scalable solutions
+Commitment to continuous learning, staying current with emerging data technologies, and sharing knowledge with the team
+
+About Us
+
+Chobani is a food maker with a mission of making high-quality and nutritious food accessible to more people, while elevating our communities and making the world a healthier place. In short: making good food for all. In support of this mission, Chobani is a purpose-driven, people-first, food-and-wellness-focused company, and has been since its founding in 2005 by Hamdi Ulukaya, an immigrant to the U.S. The Company manufactures yogurt, oat milk, and creamers – Chobani yogurt is America's No.1 yogurt brand, made with natural ingredients without artificial preservatives. Following the 2023 acquisition of La Colombe, a leading coffee roaster with a shared commitment to quality, craftmanship and impact, the Company began selling cold-pressed espresso and lattes on tap at cafés nationwide, as well as Ready to Drink (RTD) coffee beverages at retail. In 2025, Chobani acquired Daily Harvest, a modern brand offering consumers nutritious, delicious and convenient ready-to-make meals.
+
+Chobani uses food as a force for good in the world – putting humanity first in everything it does. The company's philanthropic efforts prioritize giving back to its communities and beyond. Chobani manufactures its products in New York, Idaho, Michigan and Australia, and its products are available throughout North America and distributed in Australia and other select markets.
+
+For more information, please visit www.chobani.com or follow us on Facebook, Twitter, Instagram and LinkedIn.
+
+Chobani is an equal opportunity employer. Chobani will not discriminate against any applicant for employment on any basis including, but not limited to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, military and/or veteran status, marital status, predisposing genetic characteristics and genetic information, or any other classification protected by federal, state, and local laws.
+
+The salary range for this full-time position is $140,000.00 - $260,000.00, + bonus + equity + benefits. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+Chobani provides a comprehensive benefits package, including medical, dental, vision coverage, disability insurance, health savings account, flexible spending accounts, and tuition reimbursement. To help save for the future, all employees are eligible for a 401k match of 100% on up to 5% of eligible pay. To support growing families, we provide fertility and childcare assistance, and 12 weeks of parental leave at full pay after six months of continuous employment. In addition, we provide wellness resources which include an employee assistance program, fitness discounts, a wellness reimbursement, on-site gym access (certain locations) and a monthly wellness newsletter to connect you with resources and timely information. We offer various types of paid time of including: 120 hours of paid time off, 11 holidays, and paid volunteer time off.
+
+… more
+
+Benefits found in job post
+
+Disability insurance, 401(k), Medical insurance, Paid paternity leave, Tuition assistance, Commuter benefits, Dental insurance, Paid maternity leave, Vision insurance

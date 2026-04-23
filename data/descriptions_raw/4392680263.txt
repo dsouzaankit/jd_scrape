@@ -1,0 +1,61 @@
+Role : Tech Lead (Python + Databricks+ Streamlit)
+
+Location : Iselin, NJ (Hybrid)
+
+Position Overview
+
+We are seeking a highly skilled Tech Lead with strong hands-on expertise in Python, Databricks, and Angular(Good to have) to lead the design, development, and implementation of scalable data and application solutions. The ideal candidate will guide engineering teams, architect end-to-end systems, and collaborate across functions to deliver high-quality, enterprise-grade products.
+
+Key Responsibilities
+
+Technical Leadership
+
+Lead a cross-functional engineering team across backend, frontend, and data engineering streams.
+Own the full SDLC: architecture, design, development, code reviews, DevOps pipeline oversight, and production deployment.
+Provide technical direction, mentor developers, enforce coding best practices, and promote engineering excellence.
+Work closely with product owners, architects, and stakeholders to define technical strategy and roadmap.
+
+Backend Engineering (Python)
+
+Design and build robust microservices, APIs, and data processing frameworks using Python.
+Develop scalable ETL/ELT workflows and backend logic aligned with enterprise data standards.
+Implement best practices in error handling, logging, performance tuning, and automated testing.
+
+Data Engineering (Databricks)
+
+Build large-scale data pipelines and transformations using Databricks (PySpark/Spark SQL).
+Optimize data workflows for cost, performance, and reliability.
+Collaborate with data architects to define data models, governance, and quality frameworks.
+Integrate Databricks with cloud services (Azure/AWS) for end-to-end data solutions.
+
+Cloud & DevOps
+
+Work with CI/CD pipelines (Azure DevOps, GitHub Actions, Jenkins, etc.) for automated builds and deployments.
+Ensure seamless deployment and monitoring of applications in cloud environments.
+Drive improvements in observability, reliability, and system health using monitoring tools.
+
+Collaboration & Stakeholder Management
+
+Partner with business teams to translate requirements into scalable technology solutions.
+Estimate, plan, and track project deliverables.
+Guide teams in Agile development practices (Scrum/Kanban).
+
+Required Skills & Qualifications
+
+Technical Skills
+
+Strong hands-on experience with Python (Flask/FastAPI/Django desirable).
+Advanced knowledge of Databricks, PySpark, Spark SQL.
+Experience building large-scale distributed systems.
+Strong understanding of cloud platforms (Azure preferred, AWS/GCP acceptable).
+Familiarity with SQL/NoSQL databases (PostgreSQL, MySQL, Cosmos, MongoDB, etc.).
+Experience with Git, CI/CD pipelines, Docker, and containerized deployments.
+… more
+
+Requirements added by the job poster
+
+• 8+ years of work experience with Streamlit
+
+• 7+ years of work experience with Python (Programming Language)
+
+• 8+ years of work experience with Azure Databricks

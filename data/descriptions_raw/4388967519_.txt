@@ -1,0 +1,47 @@
+🌍 We're Hiring: Data Engineer (Database & Backend) @ Hygo
+
+Hygo reaches 250 million people every month with original video content built around the things people are passionate about. We're not a tech company that dabbles in media — we're a global media company processing millions of AI generation jobs every month, and the data layer is what makes it all hold together.
+
+We're looking for a Data Engineer who lives in the query planner, thinks in schemas, and takes genuine pride in a migration that ships without a single second of downtime.
+
+🗄️ What You'll Work On
+
+This is a depth role — you'll own the data layer for one of the most complex domain models in AI-powered media.
+
+Own the data layer for a platform processing millions of AI generation jobs monthly across a rich, complex domain model → Design and optimize the PostgreSQL schema — currently managed via Prisma with role-based access control across app and migration roles → Write and review migrations with zero-downtime deployment in mind: idempotent DDL, safe rollbacks, no surprises in production → Profile and optimize slow queries across job queuing, billing lookups, user dashboards, and admin analytics → Implement and maintain data integrity patterns: constraints, triggers, audit trails, and soft deletes → Support the team on complex queries for reporting, admin tooling, and analytics features → Advise on scaling strategy as user and job volume grows — partitioning, read replicas, connection pooling tuning
+
+✅ What We're Looking For
+
+4+ years as a database engineer, DBA, or backend engineer with a deep SQL focus
+Expert PostgreSQL knowledge — query planning (EXPLAIN ANALYZE), indexing strategies, partitioning, JSONB, CTEs, window functions
+Production ORM experience (Prisma preferred, or Sequelize/TypeORM/Drizzle) — and the judgment to know when to drop to raw SQL
+Strong understanding of connection pooling (PgBouncer or similar), managed database services, and replication
+Proven experience with zero-downtime migration strategies on live production databases
+Familiarity with role-based database security — restricted DML-only app roles vs. DDL admin roles
+Bonus: Redis data modeling, time-series data, full-text search (pg_trgm), PostGIS ✨
+
+🛠 Tech Stack
+
+PostgreSQL · Prisma ORM · Redis 7 · Node.js · NestJS · TypeScript · DigitalOcean Managed Database
+
+💰 Compensation
+
+$120,000 – $140,000 base salary, depending on experience
+
+Why Hygo?
+
+You'll own the data layer that underpins everything — every AI job, every billing event, every creator dashboard, every analytics report. This isn't a support role. It's a seat at the table at a company reaching a quarter-billion people every month, where your schema decisions have real consequences and real impact.
+
+Additional Job Application Terms
+
+This job is part of LinkedIn's Full-Service Hiring beta program. Eligibility is limited to candidates located in and performing services in the United States, excluding those based in Alaska, Hawaii, Nevada, South Carolina, or West Virginia.
+
+We're committed to making our hiring process as smooth and timely as possible, and we understand that waiting to hear back can add to the anticipation. If you're a potential fit, our team will reach out within two weeks to progress you to the next stage. If you don't hear from us in that time, we encourage you to explore other opportunities with our team in the future, and we wish you the very best in your job search.
+
+… more
+
+Requirements added by the job poster
+
+• 3+ years of work experience with SQL
+
+• 3+ years of work experience with Prisma ORM
