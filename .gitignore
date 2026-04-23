@@ -8,3 +8,9 @@ books/*
 
 # Generated next to the DB when embedding
 **/jds_books_duckdb_manifest.json
+
+# Local Chroma / embedding data — do not commit
+archive/chromadb/chroma_persist/*
+
+# Chroma data folder — do not commit
+data/chroma_db/*
