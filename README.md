@@ -1,6 +1,6 @@
 # job_reqs_book_matcher
 
-Pipeline for **staging job postings** (JSON) and **EPUB books** into a shared **DuckDB** database with **sentence-transformer** embeddings, plus **SQL** examples under `script/sql/`.
+Pipeline for **staging job postings** (JSON) and **EPUB books** into a shared **DuckDB** database with **sentence-transformer** vector embeddings, plus **SQL** examples under `script/sql/`.
 
 ## Layout
 
