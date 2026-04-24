@@ -14,3 +14,10 @@ archive/chromadb/chroma_persist/*
 
 # Chroma data folder — do not commit
 data/chroma_db/*
+
+# cursor workspace files
+*.code-workspace
+
+# misc files
+.idea/
+.vscode/
