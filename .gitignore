@@ -21,3 +21,6 @@ data/chroma_db/*
 # misc files
 .idea/
 .vscode/
+
+# powershell file within data folder (used for local setup)
+data/*.ps1
