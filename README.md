@@ -32,7 +32,6 @@ python embed_staging_jd_duckdb.py --reset --min-merge-chars 10
 ```
 
 Default input: ../data/linkedin_data_engineer_edison_50mi.json (override with --input).
-\# Query existing embeddings: python embed_staging_jd_duckdb.py --query "Snowflake dbt" --n-results 5
 Table: staging_jd in data/jds_books.duckdb (paths configurable; see local_paths / duckdb_connect).
 
 

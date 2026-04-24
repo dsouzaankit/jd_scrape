@@ -15,9 +15,6 @@ Defaults:
   If direct open fails on a mapped drive, the script retries path forms and then uses ATTACH from :memory:.
   ATTACH catalog alias for that fallback is ``jds_books`` (tables: ``jds_books.staging_jd``, etc.).
 
-Query (optional):
-  python embed_staging_jd_duckdb.py --query "Snowflake dbt" --n-results 5
-
 DuckDB CLI examples (paths must exist on your machine):
   cd <job_reqs_book_matcher>
   duckdb
