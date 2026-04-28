@@ -97,6 +97,27 @@ python embed_staging_jd_duckdb.py --min-merge-chars 10
 Default input: latest `data/source_jd/<YYYY-MM-DD>/<epoch>/linkedin_jobs.json` for today UTC (override with `--input` file or date folder, or `--scrape-date`).
 Table: append-only `staging_jd_raw` in `data/jds_books.duckdb` (paths configurable; see local_paths / duckdb_connect). Reconciliation SQL materializes `staging_jd_curated` for downstream queries.
 
+### Embedding request skip (incremental ingest)
+
+Runs avoid calling the sentence-transformer encoder for chunks whose **`content_hash`** matches the **latest non-obsolete row** for the same **`chunk_id`** in `staging_jd_raw`. That lookup uses the same "latest row" ordering as reconciliation's `staging_jd_latest`: partition by `chunk_id`, order by `coalesce(source_scraped_at_utc, ingested_at_utc)` desc, then `ingested_at_utc` desc, then `run_id` desc (`rn = 1`).
+
+- **`embedding_source`** on each appended row records what happened:
+  - **`encoded`** — this row's vector came from **`embedder.encode`** in this run.
+  - **`reused_latest`** — no chunk encode; the embedding (and stored requirement similarity columns taken from reuse) came from that latest prior row because the hashes matched.
+
+- **`--re-embed-all`** disables reuse and encodes **every** chunk (e.g. after a model swap or intentional full refresh).
+
+Each run writes **`jds_books_duckdb_manifest.json`** next to the DuckDB file with **`encoded_chunk_count`**, **`reused_chunk_count`**, and **`re_embed_all`**. The CLI summary prints the same totals.
+
+Example: chunks skipped vs encoded on a single ingest run (`run_id` from the manifest):
+
+```sql
+SELECT embedding_source, count(*) AS n
+FROM staging_jd_raw
+WHERE run_id = '<manifest run_id>'
+GROUP BY embedding_source;
+```
+
 ## Books (EPUB) → DuckDB
 
 ```bash

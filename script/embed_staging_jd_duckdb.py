@@ -4,7 +4,9 @@ Same pipeline as the archived Chroma ingest ``archive/chromadb/embed_staging_jd.
 sentence-transformers, requirements similarity), but stores rows in DuckDB.
 
 Table: append-only raw ``staging_jd_raw`` with document text, DOUBLE[] embedding,
-and scalar metadata columns.
+``embedding_source`` (``encoded`` vs ``reused_latest``), and scalar metadata columns.
+Incremental runs skip the encoder when a chunk matches the latest row's ``content_hash``;
+use ``--re-embed-all`` to encode every chunk.
 
 Run from ``job_reqs_book_matcher/script`` (activate your venv first):
   python embed_staging_jd_duckdb.py --reset --min-merge-chars 10
@@ -50,6 +52,20 @@ DATE_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DEFAULT_DUCKDB = data_dir() / "jds_books.duckdb"
 TABLE_NAME = "staging_jd_raw"
 DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+
+def chunk_content_hash(text: str, job_id: str, chunk_index: int, embedding_model: str) -> str:
+    return hashlib.sha256(
+        (
+            text.strip()
+            + "|"
+            + str(job_id)
+            + "|"
+            + str(chunk_index)
+            + "|"
+            + embedding_model
+        ).encode("utf-8")
+    ).hexdigest()
 
 
 def _parse_iso_utc(s: str | None) -> datetime | None:
@@ -162,6 +178,7 @@ def _add_columns_if_missing(con: duckdb.DuckDBPyConnection, table_sql: str) -> N
         ("scrape_batch_date", "VARCHAR"),
         ("scrape_attempt_epoch", "BIGINT"),
         ("source_scraped_at_utc", "TIMESTAMPTZ"),
+        ("embedding_source", "VARCHAR"),
     ):
         try:
             con.execute(f"ALTER TABLE {table_sql} ADD COLUMN IF NOT EXISTS {col} {typ}")
@@ -202,12 +219,50 @@ def _ensure_table(con: duckdb.DuckDBPyConnection, reset: bool, table_sql: str) -
             obsoleted_at_utc TIMESTAMPTZ,
             scrape_batch_date VARCHAR,
             scrape_attempt_epoch BIGINT,
-            source_scraped_at_utc TIMESTAMPTZ
+            source_scraped_at_utc TIMESTAMPTZ,
+            embedding_source VARCHAR
         )
         """
     )
     if not reset:
         _add_columns_if_missing(con, table_sql)
+
+
+def _fetch_latest_reusable_by_chunk_id(
+    con: duckdb.DuckDBPyConnection,
+    table_sql: str,
+    chunk_ids: list[str],
+) -> dict[str, dict[str, Any]]:
+    """Latest non-obsolete row per chunk_id; reuse embedding when incoming content_hash matches."""
+    if not chunk_ids:
+        return {}
+    unique = list(dict.fromkeys(chunk_ids))
+    ph = ",".join(["?"] * len(unique))
+    sql = f"""
+    SELECT chunk_id, content_hash, embedding, similarity_to_requirements, has_requirements_sections
+    FROM (
+        SELECT *,
+            ROW_NUMBER() OVER (
+                PARTITION BY chunk_id
+                ORDER BY coalesce(source_scraped_at_utc, ingested_at_utc) DESC,
+                         ingested_at_utc DESC,
+                         run_id DESC
+            ) AS rn
+        FROM {table_sql}
+        WHERE coalesce(is_obsolete, FALSE) = FALSE
+    ) t
+    WHERE rn = 1 AND chunk_id IN ({ph})
+    """
+    rows = con.execute(sql, unique).fetchall()
+    out: dict[str, dict[str, Any]] = {}
+    for r in rows:
+        out[str(r[0])] = {
+            "content_hash": r[1],
+            "embedding": r[2],
+            "similarity_to_requirements": float(r[3]) if r[3] is not None else 0.0,
+            "has_requirements_sections": bool(r[4]) if r[4] is not None else False,
+        }
+    return out
 
 
 def _load_build_rows(
@@ -222,6 +277,7 @@ def _load_build_rows(
     scrape_batch_date: str | None,
     scrape_attempt_epoch: int | None,
     source_scraped_at_utc: datetime | None,
+    embedding_sources: list[str],
 ) -> list[tuple[Any, ...]]:
     rows: list[tuple[Any, ...]] = []
     for i, chunk_id in enumerate(all_ids):
@@ -243,17 +299,7 @@ def _load_build_rows(
                 float(meta["similarity_to_requirements"]),
                 bool(meta["has_requirements_sections"]),
                 embedding_model,
-                hashlib.sha256(
-                    (
-                        all_texts[i].strip()
-                        + "|"
-                        + str(meta["job_id"])
-                        + "|"
-                        + str(meta["chunk_index"])
-                        + "|"
-                        + embedding_model
-                    ).encode("utf-8")
-                ).hexdigest(),
+                chunk_content_hash(all_texts[i], str(meta["job_id"]), int(meta["chunk_index"]), embedding_model),
                 run_id,
                 source_json,
                 ingested_at,
@@ -263,6 +309,7 @@ def _load_build_rows(
                 scrape_batch_date,
                 scrape_attempt_epoch,
                 source_scraped_at_utc,
+                embedding_sources[i],
             )
         )
     return rows
@@ -287,6 +334,11 @@ def main() -> None:
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--min-merge-chars", type=int, default=120)
     ap.add_argument("--reset", action="store_true")
+    ap.add_argument(
+        "--re-embed-all",
+        action="store_true",
+        help="Encode every chunk even if the latest staging_jd_raw row has the same content_hash (disables reuse).",
+    )
     ap.add_argument("--query", type=str, default=None)
     ap.add_argument("--n-results", type=int, default=5)
     args = ap.parse_args()
@@ -322,54 +374,10 @@ def main() -> None:
     if not all_ids:
         raise SystemExit("No chunks produced from input JSON.")
 
-    chunk_embs = embedder.encode(
-        all_texts,
-        normalize_embeddings=True,
-        show_progress_bar=True,
-        convert_to_numpy=True,
-    )
-
-    job_ids_unique = list(requirements_by_job.keys())
-    req_texts = [
-        requirements_by_job[j] or "(no structured requirements sections detected)" for j in job_ids_unique
-    ]
-    req_embs = embedder.encode(
-        req_texts,
-        normalize_embeddings=True,
-        show_progress_bar=False,
-        convert_to_numpy=True,
-    )
-    req_map = {j: req_embs[i] for i, j in enumerate(job_ids_unique)}
-
-    for i, meta in enumerate(all_metas):
-        jid = meta["job_id"]
-        vec_c = chunk_embs[i].astype(np.float32)
-        vec_r = req_map[jid].astype(np.float32)
-        if not requirements_by_job.get(jid, "").strip():
-            meta["similarity_to_requirements"] = 0.0
-        else:
-            meta["similarity_to_requirements"] = float(np.dot(vec_c, vec_r))
-        meta["has_requirements_sections"] = bool(requirements_by_job.get(jid, "").strip())
-
     args.db.parent.mkdir(parents=True, exist_ok=True)
     ingested_at = datetime.now(timezone.utc)
     run_id = str(int(ingested_at.timestamp() * 1000))
     source_json_s = str(input_json.resolve())
-    embeddings_list: list[list[float]] = chunk_embs.astype(float).tolist()
-
-    rows = _load_build_rows(
-        all_ids,
-        all_texts,
-        all_metas,
-        embeddings_list,
-        args.model,
-        source_json_s,
-        ingested_at,
-        run_id,
-        scrape_batch_date,
-        scrape_attempt_epoch,
-        source_scraped_at_utc,
-    )
 
     con, db_connect, table_sql, used_attach = connect_duckdb_database(
         args.db, read_only=False, sql_table_basename=TABLE_NAME
@@ -378,6 +386,102 @@ def main() -> None:
         print("Note: DuckDB opened the file via ATTACH (direct connect failed on this path).")
     try:
         _ensure_table(con, args.reset, table_sql)
+        reusable: dict[str, dict[str, Any]] = {}
+        if not args.re_embed_all:
+            reusable = _fetch_latest_reusable_by_chunk_id(con, table_sql, all_ids)
+
+        embedding_sources: list[str] = []
+        encode_indices: list[int] = []
+        for i, cid in enumerate(all_ids):
+            meta = all_metas[i]
+            h = chunk_content_hash(
+                all_texts[i], str(meta["job_id"]), int(meta["chunk_index"]), args.model
+            )
+            prev = reusable.get(cid)
+            if prev and prev["content_hash"] == h:
+                embedding_sources.append("reused_latest")
+            else:
+                embedding_sources.append("encoded")
+                encode_indices.append(i)
+
+        encoded_chunk_count = embedding_sources.count("encoded")
+        reused_chunk_count = embedding_sources.count("reused_latest")
+
+        texts_to_encode = [all_texts[i] for i in encode_indices]
+        chunk_embs_new = None
+        if texts_to_encode:
+            chunk_embs_new = embedder.encode(
+                texts_to_encode,
+                normalize_embeddings=True,
+                show_progress_bar=True,
+                convert_to_numpy=True,
+            )
+
+        embeddings_list: list[list[float]] = []
+        ei = 0
+        for i in range(len(all_ids)):
+            if embedding_sources[i] == "encoded":
+                embeddings_list.append(chunk_embs_new[ei].astype(float).tolist())
+                ei += 1
+            else:
+                emb = reusable[all_ids[i]]["embedding"]
+                if hasattr(emb, "tolist"):
+                    embeddings_list.append(emb.tolist())
+                else:
+                    embeddings_list.append(list(emb))
+
+        jobs_need_req: set[str] = {str(all_metas[i]["job_id"]) for i in encode_indices}
+
+        req_map: dict[str, Any] = {}
+        if jobs_need_req:
+            jid_order: list[str] = []
+            seenj: set[str] = set()
+            for jid in jobs_need_req:
+                if jid not in seenj:
+                    seenj.add(jid)
+                    jid_order.append(jid)
+            req_texts = [
+                requirements_by_job[j] or "(no structured requirements sections detected)"
+                for j in jid_order
+            ]
+            req_embs = embedder.encode(
+                req_texts,
+                normalize_embeddings=True,
+                show_progress_bar=False,
+                convert_to_numpy=True,
+            )
+            req_map = {jid_order[i]: req_embs[i] for i in range(len(jid_order))}
+
+        for i, meta in enumerate(all_metas):
+            jid = str(meta["job_id"])
+            if embedding_sources[i] == "reused_latest":
+                r = reusable[all_ids[i]]
+                meta["similarity_to_requirements"] = r["similarity_to_requirements"]
+                meta["has_requirements_sections"] = r["has_requirements_sections"]
+                continue
+            vec_c = np.asarray(embeddings_list[i], dtype=np.float32)
+            vec_r = req_map[jid].astype(np.float32)
+            if not requirements_by_job.get(jid, "").strip():
+                meta["similarity_to_requirements"] = 0.0
+            else:
+                meta["similarity_to_requirements"] = float(np.dot(vec_c, vec_r))
+            meta["has_requirements_sections"] = bool(requirements_by_job.get(jid, "").strip())
+
+        rows = _load_build_rows(
+            all_ids,
+            all_texts,
+            all_metas,
+            embeddings_list,
+            args.model,
+            source_json_s,
+            ingested_at,
+            run_id,
+            scrape_batch_date,
+            scrape_attempt_epoch,
+            source_scraped_at_utc,
+            embedding_sources,
+        )
+
         con.executemany(
             f"""
             INSERT INTO {table_sql} (
@@ -385,12 +489,13 @@ def main() -> None:
                 title, company, location, url, requirements_headers,
                 similarity_to_requirements, has_requirements_sections, embedding_model,
                 content_hash, run_id, source_json, ingested_at_utc, last_seen_at_utc,
-                is_obsolete, obsoleted_at_utc, scrape_batch_date, scrape_attempt_epoch, source_scraped_at_utc
+                is_obsolete, obsoleted_at_utc, scrape_batch_date, scrape_attempt_epoch, source_scraped_at_utc,
+                embedding_source
             ) VALUES (
                 ?, ?, ?, ?, ?, ?, ?,
                 ?, ?, ?, ?, ?,
                 ?, ?, ?, ?, ?, ?, ?, ?,
-                ?, ?, ?, ?, ?
+                ?, ?, ?, ?, ?, ?
             )
             """,
             rows,
@@ -406,6 +511,9 @@ def main() -> None:
         "embedding_model": args.model,
         "num_jobs": len(jobs),
         "num_vectors": len(all_ids),
+        "encoded_chunk_count": encoded_chunk_count,
+        "reused_chunk_count": reused_chunk_count,
+        "re_embed_all": bool(args.re_embed_all),
         "source_json": source_json_s,
         "scrape_batch_date": scrape_batch_date,
         "scrape_attempt_epoch": scrape_attempt_epoch,
@@ -425,6 +533,7 @@ def main() -> None:
             "scrape_attempt_epoch",
             "source_scraped_at_utc",
             "content_hash",
+            "embedding_source",
             "run_id",
             "last_seen_at_utc",
             "is_obsolete",
@@ -435,7 +544,7 @@ def main() -> None:
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
     print(f"Table (append-only raw): {table_sql}")
-    print(f"Rows: {len(all_ids)} from {len(jobs)} jobs")
+    print(f"Rows: {len(all_ids)} from {len(jobs)} jobs (chunks encoded={encoded_chunk_count}, reused_latest={reused_chunk_count})")
     print(f"Source JSON: {source_json_s}")
     print(f"scrape_batch_date={scrape_batch_date!r} scrape_attempt_epoch={scrape_attempt_epoch!r}")
     print(f"DuckDB: {db_connect}")
