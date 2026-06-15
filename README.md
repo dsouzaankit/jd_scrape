@@ -62,7 +62,7 @@ python -m playwright install chromium
 Recommended first run (headed, persistent profile so you can stay logged in):
 
 ```bash
-python script/scrape_linkedin_jobs.py --headed --user-data-dir ./.pw-linkedin-profile --pause-after-load
+python script/scrape_linkedin_jobs.py --headed --user-data-dir ./local_run/linkedin-browser-profile --pause-after-load
 ```
 
 Common examples:
@@ -71,7 +71,7 @@ Common examples:
 # Default output: data/source_jd/YYYY-MM-DD/<epoch>/linkedin_jobs.json
 python script/scrape_linkedin_jobs.py --out data/custom_run.json
 python script/scrape_linkedin_jobs.py --keywords "Data Engineer" --location "Edison, NJ" --distance-mi 50 --days week --max-jobs 20
-python script/scrape_linkedin_jobs.py --headless --user-data-dir ./.pw-linkedin-profile
+python script/scrape_linkedin_jobs.py --headless --user-data-dir ./local_run/linkedin-browser-profile
 ```
 
 Key flags:

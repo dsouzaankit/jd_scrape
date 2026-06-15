@@ -15,7 +15,7 @@ Usage:
   playwright install chromium
 
   # Headed browser + pause so LinkedIn sign-in is not cut off by automation:
-  python scrape_linkedin_jobs.py --headed --user-data-dir ./.pw-linkedin-profile --pause-after-load
+  python scrape_linkedin_jobs.py --headed --user-data-dir ../local_run/linkedin-browser-profile --pause-after-load
   # PowerShell: pass a real path or an expanded env var, e.g. --user-data-dir $env:PLAYWRIGHT_USER_DATA_DIR
   # If --user-data-dir is omitted, PLAYWRIGHT_USER_DATA_DIR is read from the environment when set.
 
@@ -376,7 +376,7 @@ def scrape(
             print(
                 f"No jobs collected from search page. URL: {url}\n"
                 f"DOM probe (0 list items usually means login/captcha or HTML drift): {probe}\n"
-                "Hints: --headed --user-data-dir ./.pw-linkedin-profile --pause-after-load (finish sign-in, then Enter); "
+                "Hints: --headed --user-data-dir ../local_run/linkedin-browser-profile --pause-after-load (finish sign-in, then Enter); "
                 "or try --slow-mo 200 if the list is slow to render.",
                 file=sys.stderr,
             )

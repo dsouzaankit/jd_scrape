@@ -1,7 +1,6 @@
 # Local DuckDB (override path with JD_STAGING_DATA_DIR)
 data/*.duckdb
 data/*.db
-
 # Optional EPUB library for batch ingest (override with JD_BOOKS_DIR)
 books/*
 !books/.gitkeep
@@ -30,6 +29,8 @@ local_run/*
 .venv/
 
 ai/*
+
+todos.txt
 
 # python cache files
 __pycache__/
