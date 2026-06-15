@@ -29,6 +29,8 @@ local_run/*
 *.log
 .venv/
 
+ai/*
+
 # python cache files
 __pycache__/
 *.py[cod]
