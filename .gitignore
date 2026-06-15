@@ -26,6 +26,9 @@ data/chroma_db/*
 local_run/*
 # How to set JD_STAGING_DATA_DIR / JD_BOOKS_DIR: see README.md (Setup). Implemented in script/local_paths.py.
 
+*.log
+.venv/
+
 # python cache files
 __pycache__/
 *.py[cod]
