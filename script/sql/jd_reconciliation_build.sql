@@ -66,6 +66,7 @@ joined AS (
         s.scrape_attempt_epoch AS s_scrape_attempt_epoch,
         t.scrape_attempt_epoch AS t_scrape_attempt_epoch
     FROM source_window s
+    -- remove full outer target side??
     FULL OUTER JOIN target_window t
       ON s.chunk_id = t.chunk_id
 ),
